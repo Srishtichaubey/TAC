@@ -1,0 +1,104 @@
+/*body{background-image: url(banner.jpg);}*/
+.header{background-image: url(bg1.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		max-height: max-content;
+		width: auto;
+		z-index: -9;
+		padding-bottom: 350px;
+		}
+
+.navbar ul{style:none;
+			margin-left: 38%;}
+
+.menu li a{text-decoration: none;
+			color: white;}			
+.menu li{display: inline-block; 
+		font-weight: bold;
+    	font-size: 15px;
+    	text-shadow: 1px 1px 1px #333;
+    	transition: all 0.5s ease 0.1s;
+    	float: left;
+    	padding: 20px;
+    	}    	
+.menu li a:hover{color: #dc8906;} 
+
+
+.logo span{padding: 5px;
+	       float: left;
+	   	   margin: -30px 10px;
+	   		}
+.logo a {text-decoration: none;}
+.logo #logotext{color: white;
+				border: 1px solid #fff;
+				border-radius: 5px;
+				padding: 9px 17px;
+				font-size: 17px;
+				box-shadow: 3px 1px 9px #333;
+				text-shadow: 0 1px 1px #333;
+				}
+
+.dropdown{float: right;
+		  margin: -20px 9%;}
+
+.dropdown button{background-color: transparent;
+				 border: 1px solid #fff;
+				 border-radius: 3px;
+				 box-shadow: 3px 1px 9px #333;
+				 text-shadow: 0 1px 1px #333;
+				 padding: 8px 20px;
+				 color: white;}
+.dropdown button:hover{background-color: transparent;
+						border:solid #fff;
+						color: white;}				 
+
+.login span{float: right;
+		color: white;
+		background-color: #d19402;
+		border: 1px solid #f8cc56;
+		border-radius: 3px;
+		padding: 8px 20px;
+		font-size: 15px;
+		margin: -20px 10px;
+		text-decoration: none;}
+.login span:hover{background-color: transparent;
+				  transition: all 0.5s ease 0.1s;}
+
+.body-cotent{height: auto;
+			  width: auto;}
+.icons li{display: inline-block;
+		  margin: 30px 70px;}
+
+.icons li:hover{box-shadow: 0 8px 10px 5px rgba(253, 165, 0); border-radius: 8px;}
+	  
+.icons li p{padding: 5px 10px;
+			color: orange;
+			font-size: 30px;
+			text-align: center;
+			font-family: 'Luckiest Guy', cursive;
+			}
+.icons li a{text-decoration: none;}					  
+
+.footer{background-image: url(bg3.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: relative;
+		max-height: max-content;
+		width: auto;
+		z-index: -9;
+		padding: 20px;
+		bckground-color: #030310eb;
+		text-align: center;
+		}
+
+.footer a{padding: 20px;
+		  font-size: 40px;
+  		  width: 80px;
+		 }
+.fa:hover{opacity: 0.7;}		 		
+		
+
+   	
